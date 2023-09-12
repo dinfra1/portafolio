@@ -18,7 +18,10 @@
     overflow-x: hidden;
    }
    body{
-    background: #0b141e;
+    background: linear-gradient(
+        50deg,
+        #16Bffd, black, #cb3066
+    );
     color: #fff;
    }
     /* <!-- header section  --> */
@@ -115,9 +118,15 @@
         padding: 1rem 0;
     }
     .profile_pic{
-        width: 30vw;
+        width: 50vw;
         border-radius: 50%;
         animation: float 5s ease-in-out infinite;
+    }
+    .profile_pic img{
+        width: 25vw;
+        border-radius: 50%;
+        animation: float 5s ease-in-out infinite;
+        margin: 20%;
     }
     @keyframes float{
         0%{
