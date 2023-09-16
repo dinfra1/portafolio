@@ -30,7 +30,7 @@ ScrollReveal().reveal('.profile_pic, .about_item, .skills_item, .project_item, .
 
 //animacion de enunciado principal desarrollador 
 const text = new Typed ('.text_anim-developer',{
-strings: ['Web Developer', 'Theacher in Englisth', 'Aux de Mantenimiento'],
+strings: ['Developer Full-Stack', 'Tec in Electronics'],
 backSpeed: 100,
 typeSpeed: 100,
 backDelay: 600,

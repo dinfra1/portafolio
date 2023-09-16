@@ -180,13 +180,10 @@
         filter: blur(0);
         transform: scale(1.10);
         background: linear-gradient(
-            90deg,
+            10deg,
             #16Bffd,
             #cb3066
         );
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         box-shadow: 0 0 4px #cb3066;
     }
 
