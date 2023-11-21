@@ -109,6 +109,7 @@
         position: fixed;
         top: 63em;
         right: 2em;
+        margin: 0 0.5em 0 0;
     }
     .bx.bxl-whatsapp{
         font-size: 6em;
@@ -419,6 +420,9 @@
         .header{
             padding: 2rem 4%;
         }
+        .Whatsapp{
+            margin: 0 0.5em 0 0;
+        }
         .home img{
             width: 40vw;
         }
@@ -431,6 +435,9 @@
         
      }
      @media (max-width: 767px){
+        .Whatsapp{
+            margin: 0 0.5em 0 0;
+        }
         #menu_btb{
             display: block;
             margin-left: 70%;
@@ -482,6 +489,9 @@
         }
      }
      @media (max-width: 620px){
+        .header{
+            padding: 0 12% 0 5%;
+        }
         .skills_item{
             grid-template-columns: repeat(1,1fr);
         }
@@ -495,5 +505,8 @@
      @media (max-width: 450px){
         html{
             font-size: 50%;
+        }
+        .header{
+            padding: 0 28% 0 5%;
         }
     }
